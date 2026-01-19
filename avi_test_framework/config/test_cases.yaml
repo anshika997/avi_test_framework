@@ -1,0 +1,19 @@
+test_cases:
+  - name: "Disable Virtual Service Test"
+    vs_name: "backend-vs-t1r_1000-1"
+    stages:
+      - pre_fetch
+      - pre_validate
+      - task_trigger
+      - post_validate
+    expected:
+      pre_validate_enabled: true
+      post_validate_enabled: false
+    
+  - name: "Second Test Case"
+    vs_name: "backend-vs-t1r_1000-2"
+    stages:
+      - pre_fetch
+      - pre_validate
+    expected:
+      pre_validate_enabled: false

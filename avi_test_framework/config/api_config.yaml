@@ -1,0 +1,17 @@
+api:
+  base_url: "https://semantic-brandea-banao-dc049ed0.koyeb.app"
+  endpoints:
+    register: "/register"
+    login: "/login"
+    tenant: "/api/tenant"
+    virtualservice: "/api/virtualservice"
+    serviceengine: "/api/serviceengine"
+  timeout: 30
+
+credentials:
+  username: "anshika_avi_test_19jan2026"
+  password: "MySecurePassword@2026"
+
+logging:
+  level: "INFO"
+  file: "logs/test_execution.log"

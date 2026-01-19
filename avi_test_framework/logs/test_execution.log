@@ -1,0 +1,268 @@
+2026-01-18 22:18:13,922 - INFO - ============================================================
+2026-01-18 22:18:13,922 - INFO - Starting AVI Test Framework
+2026-01-18 22:18:13,923 - INFO - ============================================================
+
+2026-01-18 22:18:13,923 - INFO - Initiating authentication...
+2026-01-18 22:18:13,923 - INFO - Attempting registration...
+2026-01-18 22:18:17,374 - INFO - Registration successful
+2026-01-18 22:18:17,375 - INFO - Logging in...
+2026-01-18 22:18:22,269 - ERROR - Login failed: 404
+2026-01-18 22:18:22,270 - ERROR - Authentication failed. Cannot proceed.
+2026-01-18 22:22:40,717 - INFO - ============================================================
+2026-01-18 22:22:40,717 - INFO - Starting AVI Test Framework
+2026-01-18 22:22:40,718 - INFO - ============================================================
+
+2026-01-18 22:22:40,718 - INFO - Initiating authentication...
+2026-01-18 22:22:40,718 - INFO - Attempting registration...
+2026-01-18 22:22:44,035 - INFO - Registration successful
+2026-01-18 22:22:44,038 - INFO - Logging in...
+2026-01-18 22:22:44,920 - ERROR - Login failed: 404
+2026-01-18 22:22:44,922 - ERROR - Authentication failed. Cannot proceed.
+2026-01-18 22:54:09,834 - INFO - ============================================================
+2026-01-18 22:54:09,834 - INFO - Starting AVI Test Framework
+2026-01-18 22:54:09,835 - INFO - ============================================================
+
+2026-01-18 22:54:09,835 - INFO - Initiating authentication...
+2026-01-18 22:54:09,835 - INFO - Attempting registration...
+2026-01-18 22:54:12,568 - WARNING - Registration response: 409
+2026-01-18 22:54:12,570 - INFO - Logging in...
+2026-01-18 22:54:13,286 - ERROR - Login failed: 404
+2026-01-18 22:54:13,288 - ERROR - Authentication failed. Cannot proceed.
+2026-01-18 23:24:27,886 - INFO - ============================================================
+2026-01-18 23:24:27,886 - INFO - Starting AVI Test Framework
+2026-01-18 23:24:27,886 - INFO - ============================================================
+
+2026-01-18 23:24:27,886 - INFO - Initiating authentication...
+2026-01-18 23:24:27,887 - INFO - Attempting registration...
+2026-01-18 23:24:30,419 - INFO - User already registered
+2026-01-18 23:24:30,421 - INFO - Logging in...
+2026-01-18 23:24:30,422 - INFO - Trying login endpoint: /login
+2026-01-18 23:24:31,099 - ERROR - Login failed (401): {
+  "message": "Could not verify"
+}
+
+2026-01-18 23:24:31,099 - INFO - Trying login endpoint: /api/login
+2026-01-18 23:24:32,052 - INFO - Trying login endpoint: /auth/login
+2026-01-18 23:24:32,974 - ERROR - All login endpoints failed
+2026-01-18 23:24:32,977 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 15:04:48,784 - INFO - ============================================================
+2026-01-19 15:04:48,785 - INFO - Starting AVI Test Framework
+2026-01-19 15:04:48,786 - INFO - ============================================================
+
+2026-01-19 15:04:48,786 - INFO - Initiating authentication...
+2026-01-19 15:04:48,787 - INFO - Attempting registration...
+2026-01-19 15:04:48,798 - ERROR - Registration error: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002536F6096A0>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:04:48,798 - INFO - Logging in...
+2026-01-19 15:04:48,798 - INFO - Trying login endpoint: /login
+2026-01-19 15:04:48,801 - ERROR - Error on /login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002536F6456D0>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:04:48,801 - INFO - Trying login endpoint: /api/login
+2026-01-19 15:04:48,805 - ERROR - Error on /api/login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /api/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002536F4FFD90>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:04:48,806 - INFO - Trying login endpoint: /auth/login
+2026-01-19 15:04:48,808 - ERROR - Error on /auth/login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002536F4FF610>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:04:48,808 - ERROR - All login endpoints failed
+2026-01-19 15:04:48,808 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 15:05:29,791 - INFO - ============================================================
+2026-01-19 15:05:29,792 - INFO - Starting AVI Test Framework
+2026-01-19 15:05:29,793 - INFO - ============================================================
+
+2026-01-19 15:05:29,793 - INFO - Initiating authentication...
+2026-01-19 15:05:29,794 - INFO - Attempting registration...
+2026-01-19 15:05:29,802 - ERROR - Registration error: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019949C296A0>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:05:29,802 - INFO - Logging in...
+2026-01-19 15:05:29,803 - INFO - Trying login endpoint: /login
+2026-01-19 15:05:29,806 - ERROR - Error on /login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019949C656D0>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:05:29,807 - INFO - Trying login endpoint: /api/login
+2026-01-19 15:05:29,809 - ERROR - Error on /api/login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /api/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019949AEFD90>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:05:29,809 - INFO - Trying login endpoint: /auth/login
+2026-01-19 15:05:29,811 - ERROR - Error on /auth/login: HTTPSConnectionPool(host='semantic-brandea-banao-dc049ed0.koyeb.app', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019949AEF610>: Failed to resolve 'semantic-brandea-banao-dc049ed0.koyeb.app' ([Errno 11001] getaddrinfo failed)"))
+2026-01-19 15:05:29,812 - ERROR - All login endpoints failed
+2026-01-19 15:05:29,812 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 16:13:42,163 - INFO - ============================================================
+2026-01-19 16:13:42,164 - INFO - Starting AVI Test Framework
+2026-01-19 16:13:42,164 - INFO - ============================================================
+
+2026-01-19 16:13:42,164 - INFO - Initiating authentication...
+2026-01-19 16:13:42,164 - INFO - Attempting registration...
+2026-01-19 16:13:45,079 - INFO - User already registered
+2026-01-19 16:13:45,083 - INFO - Logging in...
+2026-01-19 16:13:45,084 - INFO - Trying login endpoint: /login
+2026-01-19 16:13:46,132 - ERROR - Login failed (401): {
+  "message": "Could not verify"
+}
+
+2026-01-19 16:13:46,133 - INFO - Trying login endpoint: /api/login
+2026-01-19 16:13:47,055 - INFO - Trying login endpoint: /auth/login
+2026-01-19 16:13:47,966 - ERROR - All login endpoints failed
+2026-01-19 16:13:47,969 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 16:22:42,847 - INFO - ============================================================
+2026-01-19 16:22:42,847 - INFO - Starting AVI Test Framework
+2026-01-19 16:22:42,847 - INFO - ============================================================
+
+2026-01-19 16:22:42,847 - INFO - Initiating authentication...
+2026-01-19 16:22:42,848 - INFO - Attempting registration...
+2026-01-19 16:22:47,019 - INFO - Registration successful
+2026-01-19 16:22:47,021 - INFO - Logging in...
+2026-01-19 16:22:47,021 - INFO - Trying login endpoint: /login
+2026-01-19 16:22:47,795 - ERROR - Login failed (401): {
+  "message": "Could not verify"
+}
+
+2026-01-19 16:22:47,795 - INFO - Trying login endpoint: /api/login
+2026-01-19 16:22:48,551 - INFO - Trying login endpoint: /auth/login
+2026-01-19 16:22:49,462 - ERROR - All login endpoints failed
+2026-01-19 16:22:49,464 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 16:25:48,170 - INFO - ============================================================
+2026-01-19 16:25:48,170 - INFO - Starting AVI Test Framework
+2026-01-19 16:25:48,170 - INFO - ============================================================
+
+2026-01-19 16:25:48,170 - INFO - Initiating authentication...
+2026-01-19 16:25:48,170 - INFO - Attempting registration...
+2026-01-19 16:25:50,930 - INFO - User already registered
+2026-01-19 16:25:50,931 - INFO - Logging in...
+2026-01-19 16:25:50,932 - INFO - Trying login endpoint: /login
+2026-01-19 16:25:51,498 - ERROR - Login failed (401): {
+  "message": "Could not verify"
+}
+
+2026-01-19 16:25:51,499 - INFO - Trying login endpoint: /api/login
+2026-01-19 16:25:52,008 - INFO - Trying login endpoint: /auth/login
+2026-01-19 16:25:52,539 - ERROR - All login endpoints failed
+2026-01-19 16:25:52,541 - ERROR - Authentication failed. Cannot proceed.
+2026-01-19 16:27:32,591 - INFO - ============================================================
+2026-01-19 16:27:32,592 - INFO - Starting AVI Test Framework
+2026-01-19 16:27:32,592 - INFO - ============================================================
+
+2026-01-19 16:27:32,592 - INFO - Initiating authentication...
+2026-01-19 16:27:32,592 - INFO - Attempting registration...
+2026-01-19 16:27:34,773 - INFO - User already registered
+2026-01-19 16:27:34,774 - INFO - Logging in...
+2026-01-19 16:27:34,774 - INFO - Trying login endpoint: /login1
+2026-01-19 16:27:35,285 - INFO - Trying login endpoint: /login
+2026-01-19 16:27:38,337 - INFO - Login successful using endpoint: /login
+2026-01-19 16:27:38,340 - INFO - Authentication successful
+
+2026-01-19 16:27:38,340 - INFO - API Client initialized
+
+2026-01-19 16:27:38,341 - INFO - Preparing to run 2 test case(s) in parallel...
+2026-01-19 16:27:38,341 - INFO - ============================================================
+
+2026-01-19 16:27:38,372 - INFO - 
+============================================================
+2026-01-19 16:27:38,372 - INFO - Started thread for: Disable Virtual Service Test
+2026-01-19 16:27:38,372 - INFO - Running Test: Disable Virtual Service Test
+2026-01-19 16:27:38,373 - INFO - 
+============================================================
+2026-01-19 16:27:38,373 - INFO - Started thread for: Second Test Case
+2026-01-19 16:27:38,373 - INFO - ============================================================
+
+2026-01-19 16:27:38,373 - INFO - Running Test: Second Test Case
+2026-01-19 16:27:38,373 - INFO - 
+Waiting for all threads to complete...
+
+2026-01-19 16:27:38,373 - INFO - 
+STAGE 1: PRE-FETCHER
+2026-01-19 16:27:38,374 - INFO - ============================================================
+
+2026-01-19 16:27:38,374 - INFO - ----------------------------------------
+2026-01-19 16:27:38,374 - INFO - 
+STAGE 1: PRE-FETCHER
+2026-01-19 16:27:38,374 - INFO - Fetching all tenants...
+2026-01-19 16:27:38,374 - INFO - ----------------------------------------
+2026-01-19 16:27:38,375 - INFO - Fetching all tenants...
+2026-01-19 16:27:38,996 - INFO - Total Tenants: 1
+2026-01-19 16:27:38,996 - INFO - Fetching all virtual services...
+2026-01-19 16:27:39,007 - INFO - Total Tenants: 1
+2026-01-19 16:27:39,008 - INFO - Fetching all virtual services...
+2026-01-19 16:27:39,899 - INFO - Total Virtual Services: 1925
+2026-01-19 16:27:39,900 - INFO - Fetching all service engines...
+2026-01-19 16:27:39,951 - INFO - Total Virtual Services: 1925
+2026-01-19 16:27:39,952 - INFO - Fetching all service engines...
+2026-01-19 16:27:40,691 - INFO - Total Service Engines: 82
+2026-01-19 16:27:40,691 - INFO - Pre-fetcher completed
+
+2026-01-19 16:27:40,696 - INFO - Total Service Engines: 82
+2026-01-19 16:27:40,696 - INFO - 
+STAGE 2: PRE-VALIDATION
+2026-01-19 16:27:40,697 - INFO - Pre-fetcher completed
+
+2026-01-19 16:27:40,697 - INFO - ----------------------------------------
+2026-01-19 16:27:40,697 - INFO - 
+STAGE 2: PRE-VALIDATION
+2026-01-19 16:27:40,697 - INFO - Fetching all virtual services...
+2026-01-19 16:27:40,698 - INFO - ----------------------------------------
+2026-01-19 16:27:40,698 - INFO - Fetching all virtual services...
+2026-01-19 16:27:41,301 - INFO - Total Virtual Services: 1925
+2026-01-19 16:27:41,302 - INFO - Found VS: backend-vs-t1r_1000-1
+2026-01-19 16:27:41,302 - INFO - VS UUID: virtualservice-2ccaddb9-a3be-458e-9ad5-c0be41ce28e3
+2026-01-19 16:27:41,302 - INFO - Fetching Virtual Service with UUID: virtualservice-2ccaddb9-a3be-458e-9ad5-c0be41ce28e3
+2026-01-19 16:27:41,308 - INFO - Total Virtual Services: 1925
+2026-01-19 16:27:41,308 - INFO - Found VS: backend-vs-t1r_1000-2
+2026-01-19 16:27:41,309 - INFO - VS UUID: virtualservice-155bfd04-eb5b-4dd7-a65c-55bdf6a02750
+2026-01-19 16:27:41,309 - INFO - Fetching Virtual Service with UUID: virtualservice-155bfd04-eb5b-4dd7-a65c-55bdf6a02750
+2026-01-19 16:27:41,891 - INFO - Current state: enabled=True
+2026-01-19 16:27:41,891 - INFO - Expected state: enabled=True
+2026-01-19 16:27:41,891 - INFO - Pre-validation PASSED
+2026-01-19 16:27:41,892 - INFO - 
+STAGE 3: TASK/TRIGGER
+2026-01-19 16:27:41,892 - INFO - ----------------------------------------
+2026-01-19 16:27:41,892 - INFO - Action: Disabling Virtual Service
+2026-01-19 16:27:41,892 - INFO - Updating Virtual Service: virtualservice-2ccaddb9-a3be-458e-9ad5-c0be41ce28e3
+2026-01-19 16:27:41,910 - INFO - Current state: enabled=True
+2026-01-19 16:27:41,911 - INFO - Expected state: enabled=False
+2026-01-19 16:27:41,911 - ERROR - Pre-validation FAILED
+2026-01-19 16:27:42,376 - INFO - Virtual Service disabled successfully
+2026-01-19 16:27:42,376 - INFO - 
+STAGE 4: POST-VALIDATION
+2026-01-19 16:27:42,377 - INFO - ----------------------------------------
+2026-01-19 16:27:42,377 - INFO - Fetching Virtual Service with UUID: virtualservice-2ccaddb9-a3be-458e-9ad5-c0be41ce28e3
+2026-01-19 16:27:42,874 - INFO - Current state: enabled=False
+2026-01-19 16:27:42,874 - INFO - Expected state: enabled=False
+2026-01-19 16:27:42,875 - INFO - Post-validation PASSED
+2026-01-19 16:27:42,875 - INFO - 
+MOCK COMPONENTS DEMONSTRATION
+2026-01-19 16:27:42,875 - INFO - ----------------------------------------
+2026-01-19 16:27:42,875 - INFO - 
+--- SSH Demo ---
+2026-01-19 16:27:42,875 - INFO - MOCK_SSH: Connecting to 192.168.1.100 as admin...
+2026-01-19 16:27:42,875 - INFO - MOCK_SSH: Connection established to 192.168.1.100
+2026-01-19 16:27:42,875 - INFO - MOCK_SSH: Executing command: 'show virtualservice backend-vs-t1r_1000-1'
+2026-01-19 16:27:42,876 - INFO - MOCK_OUTPUT: Command 'show virtualservice backend-vs-t1r_1000-1' executed successfully
+2026-01-19 16:27:42,876 - INFO - MOCK_SSH: Disconnecting...
+2026-01-19 16:27:42,876 - INFO - MOCK_SSH: Disconnected successfully
+2026-01-19 16:27:42,876 - INFO - 
+--- RDP Demo ---
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Initiating RDP connection to 192.168.1.101...
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Logging in as administrator
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Connected to 192.168.1.101
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Validating remote connection to 192.168.1.101...
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Checking network connectivity...
+2026-01-19 16:27:42,877 - INFO - MOCK_RDP: Verifying RDP service...
+2026-01-19 16:27:42,878 - INFO - MOCK_RDP: Validation successful for 192.168.1.101
+2026-01-19 16:27:42,878 - INFO - MOCK_RDP: Closing remote desktop session...
+2026-01-19 16:27:42,878 - INFO - MOCK_RDP: Disconnected successfully
+2026-01-19 16:27:42,878 - INFO - Mock components demo completed
+
+2026-01-19 16:27:42,878 - INFO - 
+Test 'Disable Virtual Service Test': PASS
+
+2026-01-19 16:27:42,879 - INFO - 
+============================================================
+2026-01-19 16:27:42,879 - INFO - TEST EXECUTION SUMMARY
+2026-01-19 16:27:42,879 - INFO - ============================================================
+2026-01-19 16:27:42,879 - INFO - FAIL - Second Test Case: FAIL
+2026-01-19 16:27:42,879 - INFO -   pre_fetch: PASS
+2026-01-19 16:27:42,879 - INFO -   pre_validate: FAIL
+2026-01-19 16:27:42,880 - INFO - PASS - Disable Virtual Service Test: PASS
+2026-01-19 16:27:42,880 - INFO -   pre_fetch: PASS
+2026-01-19 16:27:42,880 - INFO -   pre_validate: PASS
+2026-01-19 16:27:42,880 - INFO -   task_trigger: PASS
+2026-01-19 16:27:42,880 - INFO -   post_validate: PASS
+2026-01-19 16:27:42,880 - INFO - ============================================================
+2026-01-19 16:27:42,880 - INFO - Passed: 1
+2026-01-19 16:27:42,880 - INFO - Failed: 1
+2026-01-19 16:27:42,880 - INFO - Total: 2
+2026-01-19 16:27:42,881 - INFO - ============================================================
+
+2026-01-19 16:27:42,881 - INFO - Test execution completed!
+2026-01-19 16:27:42,881 - INFO - Detailed logs saved to: logs/test_execution.log
+
